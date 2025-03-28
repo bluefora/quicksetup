@@ -9,3 +9,14 @@ Comment=CarbonCopy Onboarding Service
 Terminal=false
 Categories=GNOME
 
+[Desktop Action Applications]
+Name=Install Applications
+Exec=/usr/bin/onboarding flatpak
+
+[Desktop Action Tweaks]
+Name=Setup Tweaks
+Exec=/usr/bin/onboarding tweaks
+
+[Desktop Action Rebase]
+Name=Rebase to other version
+Exec=/usr/bin/onboarding rebase
