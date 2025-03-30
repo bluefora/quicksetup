@@ -15,10 +15,10 @@ Actions=Flatpak;Settings;Rebase;
 Name=Install Applications
 Exec=/usr/bin/quicksetup flatpak
 
-[Desktop Action Tweaks]
+[Desktop Action Settings]
 Name=Install Tweaks
 Exec=/usr/bin/quicksetup tweaks
 
 [Desktop Action Rebase]
-Name=Install Applications
+Name=Change Version
 Exec=/usr/bin/quicksetup rebase
