@@ -45,7 +45,7 @@ rebaseVersions=(
 	[workstation]="Workstation Edition"
 	[workstation-nvidia]="Workstation NVidia Edition"
 	[developer]="Developer Edition"
-	[expirimental]="Expirimental Edition"
+	[experimental]="Experimental Edition"
 )
 typeset -g rebaseID
 
