@@ -362,7 +362,7 @@ function tweakWindow() {
 		--title \"Quick Setup\" --text \"${title}\" \
 		--column=\"Use\" --column=\"Application\" --column=\"app\" \
 		--hide-column=3 --print-column=3 --height=500 \
-		--ok-label=\"Accept\" --cancel-label=\"Skip\" ${list} 2>/dev/null)
+		--ok-label=\"Accept\" --cancel-label=\"Cancel\" ${list} 2>/dev/null)
 	return=\$?
 	echo \$output
 	exit \$return
