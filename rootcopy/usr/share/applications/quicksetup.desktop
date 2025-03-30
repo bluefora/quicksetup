@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Quick Setup
+Type=Application
+StartupNotify=false
+StartupWMClass=quicksetupWindow
+Exec=/usr/bin/quicksetup %f
+Icon=/usr/lib/quicksetup/icon.svg
+Comment=Bluefora Quick Setup
+Terminal=false
+Categories=GNOME
+SingleMainWindow=true
+Actions=Flatpak;Settings;Rebase;
+
+[Desktop Action Flatpak]
+Name=Install Applications
+Exec=/usr/bin/quicksetup flatpak
+
+[Desktop Action Tweaks]
+Name=Install Tweaks
+Exec=/usr/bin/quicksetup tweaks
+
+[Desktop Action Rebase]
+Name=Install Applications
+Exec=/usr/bin/quicksetup rebase

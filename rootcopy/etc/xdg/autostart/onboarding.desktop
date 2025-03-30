@@ -4,17 +4,3 @@ Name=Quick Setup
 Exec=quicksetup firstrun
 OnlyShowIn=GNOME;
 AutostartCondition=unless-exists quicksetup/firstrun.disable
-SingleMainWindow=true
-Actions=Flatpak;Settings;Rebase;
-
-[Desktop Action Flatpak]
-Name=Install Applications
-Exec=quicksetup flatpak
-
-[Desktop Action Tweaks]
-Name=Install Tweaks
-Exec=quicksetup tweaks
-
-[Desktop Action Rebase]
-Name=Install Applications
-Exec=quicksetup rebase
