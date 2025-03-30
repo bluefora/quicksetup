@@ -9,6 +9,7 @@ Comment=Bluefora Quick Setup
 Terminal=false
 Categories=GNOME
 SingleMainWindow=true
+X-GNOME-SingleWindow=true
 Actions=Flatpak;Settings;Rebase;
 
 [Desktop Action Flatpak]
