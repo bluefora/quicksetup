@@ -408,7 +408,7 @@ function rebaseWindow() {
 			check="FALSE"
 			
 			# Set check and add to $installed variable
-			if [[ " ${organization} " = " bluefora " && " $name " = " $version " ]]; then
+			if [[ " $name " = " $version " ]]; then
 				check="TRUE"
 			fi
 			list="${list} $check \"${rebaseVersions[$version]}\" ${version}"
