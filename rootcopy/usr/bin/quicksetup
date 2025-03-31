@@ -36,6 +36,7 @@ games=(
 typeset -A tweaks
 tweaks=(
 	[stretch-wallpaper]="Stretch Wallpaper to all Monitors"
+	[enable-cycler]="Enable Wallpaper Cycler"
 )
 
 
@@ -60,6 +61,8 @@ function untweak-stretch-wallpaper() {
 function tweak-enable-cycler() {
 	wallpaper-cycler install
 }
+function untweak-enable-cycler() {
+	wallpaper-cycler disable
 }
 
 
