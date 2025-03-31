@@ -36,7 +36,6 @@ games=(
 typeset -A tweaks
 tweaks=(
 	[stretch-wallpaper]="Stretch Wallpaper to all Monitors"
-	[select-copy]="Enable Copy on Select"
 )
 
 
@@ -58,13 +57,9 @@ function untweak-stretch-wallpaper() {
 }
 
 
-function tweak-select-copy() {
-	echo "
-[Settings]
-gtk-enable-primary-paste=true" >> $HOME/.config/gtk-3.0/settings.ini
+function tweak-enable-cycler() {
+	wallpaper-cycler install
 }
-function untweak-select-copy() {
-	rm $HOME/.config/gtk-3.0/settings.ini
 }
 
 
