@@ -17,6 +17,7 @@ basic=(
 typeset -A internet
 internet=(
 	[org.mozilla.firefox]="Firefox"
+	[com.brave.Browser]="Brave"
 	[com.google.Chrome]="Google Chrome"
 	[org.filezillaproject.Filezilla]="FileZilla"
 )
