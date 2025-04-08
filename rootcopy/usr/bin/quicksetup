@@ -25,7 +25,7 @@ typeset -A games
 games=(
 	[com.valvesoftware.Steam]="Steam"
 	[com.mojang.Minecraft]="Minecraft"
-	[org.vinegarhq.Vinegar]="Roblox"
+	[org.vinegarhq.Sober]="Roblox"
 	[org.prismlauncher.PrismLauncher]="Prism Launcher"
 	[net.minetest.Minetest]="Luanti"
 	[dev.tchx84.Gameeky]="Gameeky"
